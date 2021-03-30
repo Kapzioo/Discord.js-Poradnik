@@ -47,7 +47,7 @@ module.exports = {
         .setTitle("Potrzebujesz pomocy? Oto wszystkie moje polecenia!")
         .addFields(categories)
         .setDescription(
-          `Użyj \`${prefix}help\` a wyśle wszystkie moje komendy. Aby uzyskać więcej informacji o komendzie wpisz \`${prefix}help ping\`!`
+          `Aby uzyskać więcej informacji o komendzie wpisz \`${prefix}help (Nazwa Komendy)\`!`
         )
         .setFooter(
           `${message.author.tag} (${message.author.id})`,
