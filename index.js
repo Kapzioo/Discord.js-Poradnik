@@ -13,7 +13,7 @@ client.categories = fs.readdirSync("./Komendy/");
     require(`./handlers/${handler}`)(client);
 }); 
 client.on('ready', () => {
-    client.user.setActivity(`STATUS BOTA`)
+    client.user.setActivity(`${prefix}help | Kapzioo#2782`)
     console.log(`${client.user.username} ✅`)
 })
 client.on('message', async message =>{
